@@ -1,0 +1,285 @@
+/*-----------------menu----------------*/
+.tong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    position: relative;
+    background-color: rgba(47, 126, 243,1);
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+#crevea {
+    position: relative;
+    font-family: 'Unna', serif;
+    font-size: 30px;
+    float: left;
+    width: 50%;
+    top: 10px;
+}
+
+
+.danhsach {
+    position: relative;
+    top: 10px;
+    color: #ffeaa7;
+    padding-inline: 20px;
+    font-size:18px;
+    width: 50%;  
+}
+.fa-search{
+    position: relative;
+    top: 10px;
+    color:#ffeaa7;    
+}
+.header a:hover {
+    color: #f9ca24; /*di chuột qua link đổi màu vàng*/
+}
+.header a:link{
+   text-decoration: none; /*bỏ gạch chân ở link*/
+}
+/*main/
+/*-----------------aboutus----------------*/
+
+.aboutus{
+    position: relative;
+    width:100%;
+    
+
+}
+.aboutt{
+    float: left;
+    margin: 3% 0 0 20%;
+    width: 30%;
+    
+}
+.aboutimg{
+    float: right;
+    margin: 3% 20% 0 0;
+    padding-bottom: 1%;
+    width: 30%;
+}
+
+.fa-window-minimize{
+    color: rgb(47, 126, 243);
+    font-size: 30px;
+    padding: 0;
+    margin: 0; 
+}
+/*-----------------educationr----------------*/
+
+.education{
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    color:white;
+ }   
+.bentrai{
+    width: 50%;   
+    float: left; 
+    }
+.benphai{
+    position: static;
+    background-image: url("https://i.imgur.com/YE6srBq.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right;
+    padding-top: 5px;
+    height: 470px;
+    width: 50%;
+    display: inline-block;
+}
+.ourbs{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-indent: 2em;
+    display: inline-block;
+}
+.nd{
+    text-align: left;
+    display: block;
+    position: relative;
+    padding-top: 7px;
+    text-align: left;
+    color: white;
+    margin-bottom: 1px;
+
+}
+.benphai a:link{
+    text-decoration: none;
+}
+
+.limg{
+    position: relative;
+    right:2em;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    float: left;   
+}
+/*-----------------new----------------*/
+.newtext{
+    display: block;
+    width: 100%;
+    color:black;
+    position: relative;
+    margin-top: 2%;
+}
+.newtext1{
+    text-indent: 150px; 
+}
+.newtext2{
+    text-indent: 300px;
+}
+
+.cot1{
+    width: 18%;
+    float: left;
+    margin-left: 20%;
+    border-style: groove;
+    border-width: 1px;
+}
+.cot2{
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+    border-style: groove;
+    border-width: 1px;
+}
+.cot3{
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+    border-style: groove;
+    border-width: 1px;
+}
+.cot1 a{
+    color: black;
+}
+.cot2 a{
+    color: black;
+}
+.cot3 a{
+    color: black;
+}
+
+
+/*-----------------contact----------------*/
+
+.contact{
+    display: flex;
+    position: relative;
+    width:100%;
+   
+}
+.thongtin{  
+    display:inline-block;
+    width: 30%;
+    float:left;
+    margin-left: 20%;
+    margin-top:50px;
+}
+.bando{
+    position: relative;
+    width: 100%;
+    margin-right: 21%;
+    margin-top:30px;
+    margin-left: 5px;
+}
+.nut1{
+    float: left;
+    margin-left: 370px;
+    background-color: orange;
+    padding: 15px 32px;
+    border: none;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+
+}
+input[type=text]{
+    display: inline-flexbox;
+    width: 25%;
+    position: relative;
+    margin: 10px 0px;
+    margin-inline: 20px;
+    padding: 7px 0;       
+}
+input[type=text1]{
+    display: inline-flexbox;
+    width: 25%;
+    position: relative;
+    margin: 10px 0px;
+    margin-inline: 0px;
+    padding: 7px 5px ;       
+}
+/*-----------------footer----------------*/
+.ft{
+    background-color:black;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+   
+}
+.htext{
+    diplay: inline-block;
+    position: relative;
+    margin-inline: 15%;
+}
+.ft1{
+    width: 15%;
+    float: left;
+    margin-left: 20%;
+
+}
+.ft2{
+    width: 12%;
+    float: left;
+    margin-left: 2%;
+    
+}
+
+.ft3{
+    width: 12%;
+    float: left;
+    margin-left: 2%;
+    
+}
+.ft4{
+    width: 16%;
+    display: inline-block;
+    float: left;
+    margin-right: 20%;
+    text-indent: 0px;
+}
+
+.ft a{
+    color: white;
+    text-decoration: none;   
+}
+
+.ft a:hover {
+    color: #f9ca24;
+}
+
+.copyright{
+    width: 100%;
+    background-color: black;
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: -10px;
+    
+    
+}
